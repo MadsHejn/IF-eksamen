@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arngren</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148460033-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-148460033-1');
+    </script>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-menu">
+            <a class="navbar-item" href="index.html">
+                <img src="https://i.gyazo.com/ddd7d53ce365bc20ab615091f196f51c.png" width="40" height="28" style="zoom: 120%;">
+            </a>
+            <a href="index.html" class="navbar-item">Arngren</a>
+            <a href="biler.html" class="navbar-item">Biler</a>
+            <a href="hobby.html" class="navbar-item">Hobby</a>
+            <a href="kontaktos.html" class="navbar-item">Kontakt os</a>
+            <a href="galleri.html" class="navbar-item">Galleri</a>
+        </div>
+    </nav>
+
+<!-- The expanding image container -->
+<div class="container">
+    <!-- Close the image -->
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+    <!-- Expanded image -->
+    <img id="expandedImg">
+  
+    <!-- Image text -->
+    <div id="imgtext"></div>
+  </div>
+    <!-- The grid: four columns -->
+<div class="row">
+    <div class="column">
+      <img id="image" src="http://www.arngren.net/dareway.SS09200-6265TPS407853.jpg" alt="Elektrisk-scooter" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img id="image" src="https://i.gyazo.com/c9413a22d7b9ec49eacd111b7b8580c6.png" alt="Elektrisk bil" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img id="image"  src="http://arngren.net/sitebuilder/images/elscooter-3hjul-1-171x142.jpg" alt="3-hjuls el-cykel" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img id="image" src="https://i.gyazo.com/fc9b7b209fcc76f5ead21f98178928ac.png bil" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  
+
+  <script src="js/gallery.js"></script>
+</body>
+
+</html>
